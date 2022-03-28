@@ -1,6 +1,7 @@
 package taller3.televisores;
 
 public class TV {
+
 	private static int numTV=0;
 	private Marca marca;
 	private int canal=1;
@@ -96,5 +97,6 @@ public class TV {
 		if (this.volumen>0 && this.estado == true)
 			this.volumen -= 1;
 		else return;
-	}
+	
+}
 }
