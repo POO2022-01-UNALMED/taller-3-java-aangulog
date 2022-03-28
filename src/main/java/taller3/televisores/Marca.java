@@ -8,11 +8,11 @@ public class Marca {
 		this.nombre = nombre;
 	}
 	
-	public void setMarca(String marca){
+	public void setNombre(String marca){
 		this.nombre = marca;
 	}
 	
-	public String getMarca() {
+	public String getNombre() {
 		return this.nombre;
 	}	
 }
